@@ -1,0 +1,133 @@
+body {
+  
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Cette option permet que le fond reste fixe */
+    background-repeat: no-repeat;
+    background-color: #f8f5e1 !important 
+    
+    
+}
+
+/* Section CV avec animation d'apparition */
+.cv-section {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;  /* Animation sur l'opacité pour un effet fluide */
+}
+
+.cv-section.show {
+    opacity: 1;  /* Afficher la section avec une transition fluide */
+}
+
+/* Section CV avec animation d'apparition */
+.cv-section {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;  /* Animation sur l'opacité pour un effet fluide */
+}
+
+.cv-section.show {
+    opacity: 1;  /* Afficher la section avec une transition fluide */
+}
+
+#profilePhoto {
+    border-radius: 50%;  /* Photo circulaire */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ombre légère */
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#profilePhoto:hover {
+    transform: scale(1.05);  /* Agrandir légèrement au survol */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Intensifier l'ombre au survol */
+}
+
+.bg-light {
+    background-color: #f8f5e1 !important ;/* Couleur crème subtile */
+    background-size: cover; /* Assure que l'image (si ajoutée) couvre tout l'espace */
+    background-position: center; /* Centrage parfait de l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    border-radius: 10px; /* Arrondir les coins pour un look moderne */
+   
+    padding: 40px; /* Espacement intérieur */
+ 
+   
+    
+   
+}
+/* Formulaire : ajouter des marges et espacement entre les champs */
+#contactFormSection {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contactForm input,
+#contactForm textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+/* Bouton envoyer : bouton plus grand et avec un style moderne */
+#contactForm button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: #004085;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Réponse du message */
+#responseMessage {
+    font-size: 16px;
+    margin-top: 20px;
+}
+footer {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer p, footer ul {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .bg-dark {
+    background-color: #343a40 !important;
+}
+
+footer .text-white {
+    color: #fff !important;
+}
+
+footer .text-dark {
+    color: #343a40 !important;
+}
