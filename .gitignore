@@ -1,0 +1,13 @@
+#Symfony standard 
+/vendor/
+/var/
+/node_modules/
+/.env
+/public/build/
+/public/upload/
+
+#Cache et lops
+*.log
+*.Cache
+/ .idea/
+/ .DS_Store
