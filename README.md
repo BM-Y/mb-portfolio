@@ -30,4 +30,4 @@ composer install
 npm install
 npm run dev
 symfony serve
->>>>>>> c30e652 (Ajout du fichier README)
+
