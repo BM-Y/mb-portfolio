@@ -17,7 +17,7 @@ Ce site présente mon profil professionnel, mes compétences techniques, mes exp
 
 - Présentation dynamique des compétences, expériences et formations
 - Téléchargement du CV
-- Formulaire de contact (si activé)
+- Formulaire de contact 
 - Design responsive (mobile, tablette, desktop)
 - Organisation en composants réutilisables avec Twig
 
