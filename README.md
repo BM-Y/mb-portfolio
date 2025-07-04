@@ -10,7 +10,7 @@ Ce site présente mon profil professionnel, mes compétences techniques, mes exp
 - Bootstrap 5
 - PHP 8.x
 - Webpack Encore
-- JavaScript (vanilla ou jQuery si applicable)
+- JavaScript 
 - Git
 
 ## 🚀 Fonctionnalités
